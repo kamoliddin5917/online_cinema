@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CINEMA</title>
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+  <div class="container">
+    <form class="form">
+      <input class="form__input" type="text">
+
+      <button type="submit">submit</button>
+    </form>
+    <div class="page-buttons"></div>
+  </div>
+
+  <main class="main">
+    <div class="container">
+      <ul class="films js-films"></ul>
+    </div>
+  </main>
+
+  <template id="buton">
+    <button class="btn-page">12</button>
+  </template>
+
+  <template id="film">
+    <li class="film js-film">
+      <img alt="img" class="film__img js-film-img">
+      <p class="film__title js-film-title">Lorem, ipsum dolor.</p>
+      <span class="film__year js-film-year">2021</span>
+    </li>
+  </template>
+
+  <!-- <script src="./javascript/index.js"></script> -->
+  <script src="./javascript/videofilm.js"></script>
+</body>
+
+</html>

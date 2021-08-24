@@ -1,0 +1,25 @@
+.page-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  margin-bottom: 10px;
+}
+
+.btn {
+  cursor: pointer;
+
+  &-page {
+    display: inline-block;
+    padding: 5px;
+    background-color: red;
+    border: 2px solid gold;
+    color: gold;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: -1px 1px #000;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+}
